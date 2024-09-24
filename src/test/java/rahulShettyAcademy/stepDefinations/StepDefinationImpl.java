@@ -1,26 +1,26 @@
 package rahulShettyAcademy.stepDefinations;
 
-import java.io.IOException;
-
-import org.testng.Assert;
-
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import rahulShettyAcademy.pom.CartPage;
-import rahulShettyAcademy.pom.CheckoutPage;
-import rahulShettyAcademy.pom.ConfirmationPage;
-import rahulShettyAcademy.pom.LandingPage;
-import rahulShettyAcademy.pom.ProductCatalogue;
-import rahulShettyAcademy.testComponents.BaseTest;
-
-public class StepDefinationImpl extends BaseTest{
-	public LandingPage landingPage;
-	public ProductCatalogue prodCataloguePg;
-	public CartPage cartPg;
-	public CheckoutPage checkoutPg;
-	public ConfirmationPage confirmationPg;
-	
+//import java.io.IOException;
+//
+//import org.testng.Assert;
+//
+//import io.cucumber.java.en.Given;
+//import io.cucumber.java.en.Then;
+//import io.cucumber.java.en.When;
+//import rahulShettyAcademy.pom.CartPage;
+//import rahulShettyAcademy.pom.CheckoutPage;
+//import rahulShettyAcademy.pom.ConfirmationPage;
+//import rahulShettyAcademy.pom.LandingPage;
+//import rahulShettyAcademy.pom.ProductCatalogue;
+//import rahulShettyAcademy.testComponents.BaseTest;
+//
+//public class StepDefinationImpl extends BaseTest{
+//	public LandingPage landingPage;
+//	public ProductCatalogue prodCataloguePg;
+//	public CartPage cartPg;
+//	public CheckoutPage checkoutPg;
+//	public ConfirmationPage confirmationPg;
+//	
 //	@Given("I landed on Ecommerce Page")
 //	public void I_landed_on_Ecommerce_Page() throws IOException {
 //		landingPage = launchApplication();
@@ -52,5 +52,5 @@ public class StepDefinationImpl extends BaseTest{
 //		Assert.assertTrue(confirmationMsg.equalsIgnoreCase(string));
 //		driver.close();
 //	}
-	
-}
+//	
+//}
