@@ -11,7 +11,7 @@ import rahulShettyAcademy.testComponents.BaseTest;
 import rahulShettyAcademy.testComponents.RetryMechanism;
 
 public class ErrorValidationTest extends BaseTest{
-	@Test(groups = {"ErrorHandling"}, retryAnalyzer = RetryMechanism.class)
+	@Test(groups = {"ErrorHandling"})
     public void loginErrorValidation() throws IOException, InterruptedException {
 		landingPage.loginToApp("anshika@gmail.com", "king@000");
 		String errorMsg = landingPage.getErrorMessage();
