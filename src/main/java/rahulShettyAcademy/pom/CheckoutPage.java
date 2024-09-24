@@ -38,6 +38,8 @@ WebDriver driver;
 	}
 	
 	public ConfirmationPage clickOnCheckoutBtn() {
+		Actions action = new Actions(driver);
+		action.moveToElement(checkoutBtn).perform();
 		checkoutBtn.click();
 		ConfirmationPage successPg = new ConfirmationPage(driver);
 		return successPg;
